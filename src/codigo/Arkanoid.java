@@ -47,6 +47,8 @@ public class Arkanoid extends acm.program.GraphicsProgram{
 			pause(2);
 		}
 		
+		
+		
 	}
 	public void mouseMoved (MouseEvent evento){
 		barra1.mueveBarra(evento.getX(), getWidth());
